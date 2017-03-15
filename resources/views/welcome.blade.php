@@ -27,12 +27,15 @@
                     <li role="presentation"><a href="#">Some Text</a></li>
                     <li role="presentation"><a href="#">Some Text</a></li>
                     <li role="presentation"><a href="#">Some Text</a></li>
+                    <li role="presentation"><a href="#">Some Text</a></li>
+                    <li role="presentation"><a href="#">Some Text</a></li>
+                    <li role="presentation"><a href="#">Some Text</a></li>
                 </ul>
             </div>
 
             </div>
             <div class="col-sm-6 col-xs-6 col-lg-6 col-md-2" style="border: solid 1px black">
-              <h1>Logo</h1>
+              <h5>UA Legion</h5>
             </div>
           </div>
         </header>
@@ -40,39 +43,60 @@
 
       <div id="search-auth-panel">
         <div class="row">
-          <div class="col-md-4 col-sm-3" style="border: solid 1px black">
-            <h2>One</h2>
+          <div class="col-md-5 col-sm-3" style="border: solid 1px black">
+            <button type="submit" class="btn btn-link" name="mail-button" value="get-mail">Mail</button>
+            <button type="submit" class="btn btn-link" name="facebook-button" value="facebook">Facebook</button>
+            <button type="submit" class="btn btn-link" name="youtube-button" value="youtube">YouTube</button>
+          </div>
+          <div class="col-md-3 col-sm-3" style="border: solid 1px black">
+            <button type="submit" class="btn btn-link" value="auth">Войти/Зарегистрироваться</button>
           </div>
           <div class="col-md-4 col-sm-3" style="border: solid 1px black">
-            <h2>Auth Two</h2>
-          </div>
-          <div class="col-md-4 col-sm-3" style="border: solid 1px black">
-            <h2>Search Three</h2>
+
+            <form class="form-search">
+              <input type="text" class="input-medium search-query">
+              <button type="submit" class="btn btn-link">Поиск</button>
+            </form>
+
           </div>
         </div>
-      </div>
+      </div><hr>
 
       <div id="wrapper">
         <div class="row">
           <div class="content col-md-9" style="border: solid 1px black">
-            <h3>Content</h3>
+            <h4>Header</h4>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </h5>
           </div>
           <div class="sidebar col-md-3" style="border: solid 1px black">
-            <h3>Sidebar</h3>
+            <div class="">
+              <h5>Header</h5>
+              <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h6>
+            </div>
+            <div class="">
+              <h5>Header</h5>
+              <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h6>
+            </div>
           </div>
         </div>
       </div>
 
+<hr>
+
       <div id="footer">
         <div class="row">
           <div class="col-md-2" style="border: solid 1px black">
-            <h4>Footer One</h4>
+            <button type="submit" class="btn btn-link" name="mail-button" value="get-mail">Mail</button>
           </div>
-          <div class="col-md-8" style="border: solid 1px black">
-            <h4>Footer Two</h4>
+          <div class="col-md-7" style="border: solid 1px black">
+            <small>Данный сайт является визитной карточкой военно-политической эмиграции в Украине, где мы (военно-политические эмигранты) документируем сами себя, самими собой.Общим, документальным описанием текущей ситуации. Будет полезен прежде всего самим эмигрантам, а так же общественным организациям, юристам, депутатам, журналистам и всем, кого интересует данная тематика.</small>
           </div>
-          <div class="col-md-2" style="border: solid 1px black">
-            <h4>Footer Three</h4>
+          <div class="col-md-3" style="border: solid 1px black">
+            <p>сайт ualegion.ho.ua &copy; 2017</p>
           </div>
         </div>
       </div>
