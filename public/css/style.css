@@ -6,3 +6,9 @@
     display: flex;
     flex:1 0 auto;
 }
+.header{
+  background: #333;
+}
+#search-auth-panel{
+  background: #333;
+}
